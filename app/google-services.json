@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "592881776797",
+    "project_id": "lighton-58d9e",
+    "storage_bucket": "lighton-58d9e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:592881776797:android:4a57ad6e0f8535b072fc74",
+        "android_client_info": {
+          "package_name": "com.example.lighton"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "592881776797-rfqan2n607epntmj6qhdgdlqmktrkkf8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lighton",
+            "certificate_hash": "40f400fe2b70fdc0eae807ee36dd389e927a7b0f"
+          }
+        },
+        {
+          "client_id": "592881776797-8gtbke1t7bsplgvvp7cbbn77rppblcar.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDauQ-mDVQhIZuIjvlydu_fKc_cfAnJUGg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "592881776797-8gtbke1t7bsplgvvp7cbbn77rppblcar.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
