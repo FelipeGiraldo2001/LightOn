@@ -17,8 +17,7 @@ import com.google.firebase.auth.FirebaseAuth;
 public class RecuperarContra extends AppCompatActivity {
 
         private EditText mEditTextEmail;
-        private Button mButtonResetPass;
-        private String email="";
+    private String email="";
 
         private FirebaseAuth mAuth;
         private ProgressDialog mDialog;
@@ -31,13 +30,13 @@ public class RecuperarContra extends AppCompatActivity {
         mAuth=FirebaseAuth.getInstance();
         mDialog= new ProgressDialog(this);
         mEditTextEmail= (EditText) findViewById(R.id.txt_recupe);
-        mButtonResetPass=(Button) findViewById(R.id.btn_Actualizar);
+        Button mButtonResetPass = (Button) findViewById(R.id.btn_Actualizar);
 
         mButtonResetPass.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 email=mEditTextEmail.getText().toString();
-                if(!email.isEmpty()){
+                if(!email.equals("")){
                     mDialog.setMessage("Espere un momento...");
                     mDialog.setCanceledOnTouchOutside(false);
                     mDialog.show();

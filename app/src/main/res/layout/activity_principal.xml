@@ -11,25 +11,20 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
         <com.google.android.material.bottomnavigation.BottomNavigationView
             android:id="@+id/bottom_navigation"
             style="@style/BottomNavigation"
             android:layout_width="match_parent"
-            android:layout_height="74dp"
+            android:layout_height="wrap_content"
             android:layout_marginTop="1800px"
             android:elevation="8dp"
             app:labelVisibilityMode="selected"
 
             app:menu="@menu/bottom_navigation" />
 
-        <ImageButton
-            android:id="@+id/imageButton"
-            android:layout_width="match_parent"
-            android:layout_height="61dp"
-            android:scaleType="center"
-            tools:srcCompat="@android:drawable/ic_menu_gallery" />
     </FrameLayout>
 
 </RelativeLayout>

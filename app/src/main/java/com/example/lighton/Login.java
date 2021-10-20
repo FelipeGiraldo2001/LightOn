@@ -34,7 +34,7 @@ public class Login extends AppCompatActivity {
     protected void onStart() {
         super.onStart();
         if (at.getCurrentUser() != null) {
-            startActivity(new Intent(Login.this, Principal.class));
+            startActivity(new Intent(Login.this, PerfilesBanda.class));
             finish();
         }
     }
