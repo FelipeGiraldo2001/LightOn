@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name"></string>
+    <string name="app_name">Light On</string>
     <string name="BotonRegistrar">Registrate</string>
     <string name="BotonIniciarSesion">Iniciar Sesion</string>
     <string name="BotoCrearCuenta">Crear Cuenta</string>
@@ -11,4 +11,7 @@
     <string name="title_activity_maps">MapsActivity</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="web_client_id">592881776797-8gtbke1t7bsplgvvp7cbbn77rppblcar.apps.googleusercontent.com</string>
+    <string name="facebook_app_id">180603414235188</string>
+    <string name="fb_login_protocol_scheme">fb180603414235188</string>
 </resources>

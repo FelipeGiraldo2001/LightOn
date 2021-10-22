@@ -8,10 +8,14 @@ android {
 
     defaultConfig {
         applicationId "com.example.lighton"
+        multiDexEnabled true
         minSdk 16
         targetSdk 31
         versionCode 1
         versionName "1.0"
+
+
+
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -43,7 +47,9 @@ dependencies {
     implementation platform('com.google.firebase:firebase-bom:28.4.1')
     implementation 'com.google.firebase:firebase-database'
     implementation 'com.google.firebase:firebase-auth'
+    implementation 'com.google.android.gms:play-services-auth:18.1.0'
     implementation files('libs\\YouTubeAndroidPlayerApi.jar')
+    implementation 'com.facebook.android:facebook-android-sdk:[4,5)'
     implementation 'com.google.android.gms:play-services-maps:17.0.0'
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     testImplementation 'junit:junit:4.13.2'

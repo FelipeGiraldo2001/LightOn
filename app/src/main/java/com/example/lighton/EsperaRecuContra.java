@@ -15,7 +15,7 @@ public class EsperaRecuContra extends AppCompatActivity {
     }
 
     public void SiguienteRecup(View view){
-        Intent siguientel = new Intent(this, RecuperarContra.class);
+        Intent siguientel = new Intent(this, IniciarSesion.class);
         startActivity(siguientel);
     }
 }

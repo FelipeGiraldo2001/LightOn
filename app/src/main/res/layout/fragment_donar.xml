@@ -11,7 +11,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="403dp"
-        android:background="#DC172CA6"
+        android:background="@color/white"
         app:layout_constraintBottom_toTopOf="@+id/textView7"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintTop_toTopOf="parent">
