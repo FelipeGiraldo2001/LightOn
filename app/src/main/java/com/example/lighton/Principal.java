@@ -21,7 +21,7 @@ public class Principal extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_principal);
 
-        BottomNavigationView navigation= findViewById(R.id.bottom_navigation);
+        BottomNavigationView navigation= findViewById(R.id.bottom_perfil);
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
 
         loadFragment(firstFragment);

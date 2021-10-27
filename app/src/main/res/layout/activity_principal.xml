@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".Principal">
 
+
     <FrameLayout
         android:id="@+id/fragment_container"
         android:layout_width="match_parent"
@@ -15,11 +16,22 @@
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
         <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottom_perfil"
+            style="@style/BottomNavigation"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_marginTop="0px"
+            android:elevation="@dimen/cardview_default_elevation"
+            app:labelVisibilityMode="selected"
+
+            app:menu="@menu/bottom_profile" />
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
             android:id="@+id/bottom_navigation"
             style="@style/BottomNavigation"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="1800px"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_marginTop="1975px"
             android:elevation="8dp"
             app:labelVisibilityMode="selected"
 

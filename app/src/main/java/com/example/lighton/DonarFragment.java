@@ -1,10 +1,15 @@
 package com.example.lighton;
 
+import android.content.Intent;
 import android.os.Bundle;
 import androidx.fragment.app.Fragment;
+
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.ImageView;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -39,6 +44,8 @@ public class DonarFragment extends Fragment {
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
         fragment.setArguments(args);
+
+        Log.e("TAG", "Estas en el Fragment");
         return fragment;
     }
 
@@ -52,6 +59,7 @@ public class DonarFragment extends Fragment {
         if (getArguments() != null) {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
+
         }
     }
 
@@ -59,6 +67,19 @@ public class DonarFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_donar, container, false);
+        View view = inflater.inflate(R.layout.fragment_donar, container, false);
+
+        Button btnLanzarActivity = (Button) view.findViewById(R.id.btn_donaciones);
+        btnLanzarActivity.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(),Donar.class);
+                startActivity(intent);
+            }
+        });
+        return view;
+
     }
+
+
 }

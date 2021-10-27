@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
 import android.view.LayoutInflater;
@@ -73,15 +74,23 @@ public class FirstFragment extends Fragment {
         mButtomDonar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                DonarFragment donarFragment=new DonarFragment();
-                FragmentTransaction fragmentTransaction= getFragmentManager().beginTransaction();
-                fragmentTransaction.replace(R.id.first,donarFragment);
-                fragmentTransaction.commit();
+                // Create new fragment and transaction
+                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                FragmentTransaction transaction = fragmentManager.beginTransaction();
+                transaction.setReorderingAllowed(true);
+
+// Replace whatever is in the fragment_container view with this fragment
+                transaction.replace(R.id.perfiles_tt, DonarFragment.class, null);
+
+// Commit the transaction
+                transaction.commit();
+
 
             }
         });
         return root;
     }
+
 
 
     }
