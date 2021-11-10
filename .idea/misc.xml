@@ -5,23 +5,42 @@
       <map>
         <entry key="..\:/Users/usuario/AndroidStudioProjects/LightOn/app/src/main/res/drawable/stroke_img.xml" value="0.19743589743589743" />
         <entry key="..\:/Users/usuario/AndroidStudioProjects/LightOn/app/src/main/res/layout-v21/activity_principal.xml" value="0.10677083333333333" />
-        <entry key="..\:/Users/usuario/AndroidStudioProjects/LightOn/app/src/main/res/layout/activity_credito.xml" value="0.17264957264957265" />
-        <entry key="..\:/Users/usuario/AndroidStudioProjects/LightOn/app/src/main/res/layout/activity_donar.xml" value="0.16" />
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/LightOn/app/src/main/res/layout-v31/fragment_first.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/LightOn/app/src/main/res/layout/activity_credito.xml" value="0.22" />
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/LightOn/app/src/main/res/layout/activity_donar.xml" value="0.22" />
         <entry key="..\:/Users/usuario/AndroidStudioProjects/LightOn/app/src/main/res/layout/activity_espera_recu_contra.xml" value="0.20471014492753623" />
         <entry key="..\:/Users/usuario/AndroidStudioProjects/LightOn/app/src/main/res/layout/activity_home.xml" value="0.20108695652173914" />
         <entry key="..\:/Users/usuario/AndroidStudioProjects/LightOn/app/src/main/res/layout/activity_iniciar_sesion.xml" value="0.20471014492753623" />
         <entry key="..\:/Users/usuario/AndroidStudioProjects/LightOn/app/src/main/res/layout/activity_login.xml" value="0.2223731884057971" />
         <entry key="..\:/Users/usuario/AndroidStudioProjects/LightOn/app/src/main/res/layout/activity_main.xml" value="0.21041666666666667" />
         <entry key="..\:/Users/usuario/AndroidStudioProjects/LightOn/app/src/main/res/layout/activity_maps.xml" value="0.20108695652173914" />
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/LightOn/app/src/main/res/layout/activity_payment_details.xml" value="0.2" />
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/LightOn/app/src/main/res/layout/activity_paypal.xml" value="0.1634963768115942" />
         <entry key="..\:/Users/usuario/AndroidStudioProjects/LightOn/app/src/main/res/layout/activity_perfiles_banda.xml" value="0.18" />
-        <entry key="..\:/Users/usuario/AndroidStudioProjects/LightOn/app/src/main/res/layout/activity_principal.xml" value="0.16" />
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/LightOn/app/src/main/res/layout/activity_principal.xml" value="0.18" />
         <entry key="..\:/Users/usuario/AndroidStudioProjects/LightOn/app/src/main/res/layout/activity_recuperar_contra.xml" value="0.20471014492753623" />
         <entry key="..\:/Users/usuario/AndroidStudioProjects/LightOn/app/src/main/res/layout/activity_registrar.xml" value="0.20471014492753623" />
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/LightOn/app/src/main/res/layout/activity_ver_usuarios.xml" value="0.1841880341880342" />
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/LightOn/app/src/main/res/layout/dialog_personalizado.xml" value="0.17844202898550723" />
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/LightOn/app/src/main/res/layout/fragment_acerca_de.xml" value="0.1841880341880342" />
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/LightOn/app/src/main/res/layout/fragment_ayuda.xml" value="0.18297101449275363" />
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/LightOn/app/src/main/res/layout/fragment_card_perfil_banda.xml" value="0.1634963768115942" />
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/LightOn/app/src/main/res/layout/fragment_card_view_emisor.xml" value="0.22" />
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/LightOn/app/src/main/res/layout/fragment_card_view_mensajes.xml" value="0.1841880341880342" />
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/LightOn/app/src/main/res/layout/fragment_card_view_receptor.xml" value="0.18297101449275363" />
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/LightOn/app/src/main/res/layout/fragment_card_view_usuario.xml" value="0.1841880341880342" />
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/LightOn/app/src/main/res/layout/fragment_configuracion.xml" value="0.22" />
         <entry key="..\:/Users/usuario/AndroidStudioProjects/LightOn/app/src/main/res/layout/fragment_donar.xml" value="0.17264957264957265" />
-        <entry key="..\:/Users/usuario/AndroidStudioProjects/LightOn/app/src/main/res/layout/fragment_first.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/LightOn/app/src/main/res/layout/fragment_first.xml" value="0.22" />
         <entry key="..\:/Users/usuario/AndroidStudioProjects/LightOn/app/src/main/res/layout/fragment_four.xml" value="0.21810699588477367" />
-        <entry key="..\:/Users/usuario/AndroidStudioProjects/LightOn/app/src/main/res/layout/fragment_second.xml" value="0.21041666666666667" />
-        <entry key="..\:/Users/usuario/AndroidStudioProjects/LightOn/app/src/main/res/layout/fragment_third.xml" value="0.1" />
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/LightOn/app/src/main/res/layout/fragment_informacion_personal.xml" value="0.17844202898550723" />
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/LightOn/app/src/main/res/layout/fragment_internacional.xml" value="0.18297101449275363" />
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/LightOn/app/src/main/res/layout/fragment_menu.xml" value="0.1841880341880342" />
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/LightOn/app/src/main/res/layout/fragment_notificaciones.xml" value="0.18297101449275363" />
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/LightOn/app/src/main/res/layout/fragment_perfiles_propios.xml" value="0.33" />
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/LightOn/app/src/main/res/layout/fragment_second.xml" value="0.25" />
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/LightOn/app/src/main/res/layout/fragment_third.xml" value="0.18" />
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/LightOn/app/src/main/res/layout/fragment_ver_usuarios.xml" value="0.1841880341880342" />
         <entry key="..\:/Users/usuario/AndroidStudioProjects/LightOn/app/src/main/res/menu/bottom_main.xml" value="0.1841880341880342" />
         <entry key="..\:/Users/usuario/AndroidStudioProjects/LightOn/app/src/main/res/menu/bottom_navigation.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/usuario/AndroidStudioProjects/LightOn/app/src/main/res/menu/bottom_profile.xml" value="0.1841880341880342" />

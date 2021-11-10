@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/first"
     android:layout_width="match_parent"
@@ -14,18 +13,28 @@
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
+
+    <ImageButton
+        android:id="@+id/btn_pasarBand"
+        android:layout_width="wrap_content"
+        android:layout_height="101dp"
+        android:layout_gravity="center"
+        android:src="@drawable/selfie"
+        android:background="@android:color/transparent"/>
+
     <LinearLayout
-        android:id="@+id/perfiles_tt"
+        android:id="@+id/lol"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="horizontal">
+        android:orientation="vertical">
+        </LinearLayout>
 
-        <Button
-            android:id="@+id/btn_Donar"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Perfil Banda" />
-    </LinearLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
 
 </LinearLayout>

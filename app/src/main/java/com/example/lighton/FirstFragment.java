@@ -6,12 +6,18 @@ import android.os.Bundle;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageButton;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.TextView;
 
+import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.google.android.youtube.player.YouTubePlayer;
 import com.google.android.youtube.player.YouTubePlayerView;
 
@@ -22,6 +28,8 @@ import com.google.android.youtube.player.YouTubePlayerView;
  */
 public class FirstFragment extends Fragment {
     private Button mButtomDonar;
+    private ImageView mButtomPhoto;
+
 
 
     // TODO: Rename parameter arguments, choose names that match
@@ -70,25 +78,30 @@ public class FirstFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View root= inflater.inflate(R.layout.fragment_first, container, false);
-        mButtomDonar=root.findViewById(R.id.btn_Donar);
-        mButtomDonar.setOnClickListener(new View.OnClickListener() {
+        mButtomDonar=(Button) root.findViewById(R.id.btn_Donar);
+        mButtomPhoto=(ImageButton)root.findViewById(R.id.btn_pasarBand);
+
+
+
+
+        mButtomPhoto.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                // Create new fragment and transaction
                 FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
                 FragmentTransaction transaction = fragmentManager.beginTransaction();
                 transaction.setReorderingAllowed(true);
-
-// Replace whatever is in the fragment_container view with this fragment
-                transaction.replace(R.id.perfiles_tt, DonarFragment.class, null);
-
-// Commit the transaction
+                transaction.replace(R.id.lol, DonarFragment.newInstance("",""));
                 transaction.commit();
-
+                mButtomPhoto.setVisibility(View.GONE);
 
             }
         });
+
+
+
+
         return root;
+
     }
 
 

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Light On</string>
+    <string name="BotonRegistrar">Sing Up</string>
+    <string name="BotonIniciarSesion">Log in</string>
+    <string name="BotoCrearCuenta">Create an account</string>
+    <string name="BotonIngresar">To Join</string>
+    <string name="EtUsuario">Username</string>
+    <string name="EtCorreo">Email</string>
+    <string name="EtContraseña">Password</string>
+    <string name="EtRepContraseña">Repeat Password</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="web_client_id">592881776797-8gtbke1t7bsplgvvp7cbbn77rppblcar.apps.googleusercontent.com</string>
+    <string name="facebook_app_id">180603414235188</string>
+    <string name="fb_login_protocol_scheme">fb180603414235188</string>
+
+    <string  name ="Olvido">Forgot your password?</string>
+    <string  name ="O">or</string>
+
+    <string name="CreditNumeroTarjeta">Card Number</string>
+    <string name="CreditFechaExpiracion">Expiry date</string>
+    <string name="BtnEscanear">TO SCAN </string>
+
+    <string name="DonaAgregarTarjetadecrédito">Add Credit Card</string>
+    <string name="DonaRealizarTransacción">Make a transaction</string>
+
+    <string name="RecuperarContraseña">In a few minutes you will receivea recovery code</string>
+    <string name="BtnContinuar">Next</string>
+    <string name="CerrarSesión">Log out</string>
+
+    <string name="RecuContraDigitatucorreo">Type your email</string>
+    <string name="RecuContraCorreoelectrónico">Email</string>
+    <string name="BtnEnviar">Send</string>
+
+    <string name="PerfilBandaCerrarSesión">Log Out</string>
+    <string name="PerfilUsuario">User</string>
+
+    <string name="ModoOscuro">Dark Mode</string>
+    <string name="ConfiCerrarSesión">Log Out</string>
+    <string name="ConfiCuenta">Account</string>
+
+    <string name="BtnAplicar">Apply</string>
+    <string name="BtnContacto">Contac</string>
+    <string name="BtnDonar">Donate</string>
+    <string name="BtnInfo">Information</string>
+
+    <string name="BtnPerfilBanda">Profile Band</string>
+    <string name="BtnConfiguracion">Seeting</string>
+    <string name="Idioma">Languaje</string>
+    <string name="VerUsuarios">New Chat</string>
+
+    <string name="EscribeMensaje">Send message</string>
+    <string name="Comunidad">Comunity</string>
+    <string name="Principal">Main</string>
+    <string name="Chat">Chat</string>
+    <string name="Buscar">Search</string>
+    <string name="Perfil">Profile</string>
+    <string name="Ayuda">Help</string>
+    <string name="Acercade">About</string>
+    <string name="Notificaciones">Notification</string>
+    <string name="Transaccion">Transaction</string>
+    <string name="AgregarCuenta">Add account</string>
+    <string name="CuentaYaExistente">Existing account</string>
+    <string name="InformacionPersonal">Personal Information</string>
+    <string name="Telefono">Phone</string>
+    <string name="Reportarunproblema">Report a problem</string>
+    <string name="Problema">Write your problem, we will gladly help you</string>
+    <string name="btnEnviarProblema">Send</string>
+    <string name="Vibrar">Vibrating Mode</string>
+    <string name="Tono">Song</string>
+    <string name="AcercadePoliticas">About </string>
+    <string name="Informacion">Information</string>
+    <string name="Agregar">Add friend</string>
+    <string name="Experiencia">Experiencie</string>
+    <string name="Especialidad">Speciality</string>
+
+
+
+</resources>

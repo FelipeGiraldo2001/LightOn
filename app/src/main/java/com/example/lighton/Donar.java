@@ -18,4 +18,8 @@ public class Donar extends AppCompatActivity {
         Intent entrar = new Intent(this, Credito.class);
         startActivity(entrar);
     }
+    public void EntrarPaypal(View view){
+        Intent entrar = new Intent(this, Paypal.class);
+        startActivity(entrar);
+    }
 }

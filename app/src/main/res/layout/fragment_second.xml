@@ -1,20 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".SecondFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <ImageButton
+        android:id="@+id/btn_pasarBand"
+        android:layout_width="wrap_content"
+        android:layout_height="94dp"
+        android:layout_gravity="center"
+        android:src="@drawable/selfie"
+        android:background="@android:color/transparent"/>
+
+    <LinearLayout
+        android:id="@+id/lol"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="30dp"
-        android:fontFamily="sans-serif-black"
-        android:gravity="center_horizontal"
-        android:text="Segundo Fragmento"
-        android:textColor="@color/green_normal"
-        android:textSize="40sp" />
+        android:orientation="vertical">
+    </LinearLayout>
 
 
-</RelativeLayout>
+
+
+
+</LinearLayout>

@@ -3,6 +3,8 @@ package com.example.lighton;
 import android.content.Intent;
 import android.os.Bundle;
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
 
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -70,11 +72,22 @@ public class DonarFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_donar, container, false);
 
         Button btnLanzarActivity = (Button) view.findViewById(R.id.btn_donaciones);
+        Button btnLanzar = (Button) view.findViewById(R.id.btn_Comunica);
         btnLanzarActivity.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getActivity(),Donar.class);
                 startActivity(intent);
+            }
+        });
+        btnLanzar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                FragmentTransaction transaction = fragmentManager.beginTransaction();
+                transaction.setReorderingAllowed(true);
+                transaction.replace(R.id.perfilDonar, ThirdFragment.class, null);
+                transaction.commit();
             }
         });
         return view;

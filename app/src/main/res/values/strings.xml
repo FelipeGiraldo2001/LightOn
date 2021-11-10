@@ -14,4 +14,68 @@
     <string name="web_client_id">592881776797-8gtbke1t7bsplgvvp7cbbn77rppblcar.apps.googleusercontent.com</string>
     <string name="facebook_app_id">180603414235188</string>
     <string name="fb_login_protocol_scheme">fb180603414235188</string>
+
+    <string name="Olvido">¿Olvidaste tu contraseña?</string>
+    <string name="O">Ó</string>
+
+    <string name="CreditNumeroTarjeta">Número de tarjeta</string>
+    <string name="CreditFechaExpiracion">Fecha de expiración</string>
+    <string name="BtnEscanear">ESCANEAR </string>
+
+    <string name="DonaAgregarTarjetadecrédito">Agregar Tarjeta de crédito</string>
+    <string name="DonaRealizarTransacción">Realizar Transacción</string>
+
+    <string name="RecuperarContraseña">En unos minutos recibirá un código de recuperación</string>
+    <string name="BtnContinuar">Continuar</string>
+    <string name="CerrarSesión">Cerrar Sesión</string>
+
+    <string name="RecuContraDigitatucorreo">Digita tu correo electrónico</string>//mensaje para que
+    dijite el correo
+    <string name="RecuContraCorreoelectrónico">Correo electrónico</string>//espacio par digitar el
+    correo
+    <string name="BtnEnviar">Enviar</string>
+
+    <string name="PerfilBandaCerrarSesión">Cerrar Sesión</string>
+    <string name="PerfilUsuario">Usuario</string>
+
+    <string name="ModoOscuro">Modo Oscuro</string>
+    <string name="ConfiCerrarSesión">Cerrar Sesión</string>
+    <string name="ConfiCuenta">Cuenta</string>
+
+    <string name="BtnAplicar">Aplicar</string>
+    <string name="BtnContacto">Contacto</string>
+    <string name="BtnDonar">Donar</string>
+    <string name="BtnInfo">Información</string>
+
+    <string name="BtnPerfilBanda">Perfil Banda</string>
+    <string name="BtnConfiguracion">Configuración</string>
+    <string name="Idioma">Idioma</string>
+    <string name="VerUsuarios">Nuevo Chat</string>
+
+    <string name="EscribeMensaje">Escribe un mensaje</string>
+    <string name="Comunidad">Comunidad</string>
+    <string name="Principal">Principal</string>
+    <string name="Chat">Chat</string>
+    <string name="Buscar">Buscar</string>
+    <string name="Perfil">Perfil</string>
+    <string name="Ayuda">Ayuda</string>
+    <string name="Acercade">Acerca de</string>
+    <string name="Notificaciones">Notificaciones</string>
+    <string name="Transaccion">Transacción</string>
+    <string name="AgregarCuenta">Agregar Cuenta</string>
+    <string name="CuentaYaExistente">Cuenta ya existente</string>
+    <string name="InformacionPersonal">Informacion Personal</string>
+    <string name="Telefono">Telefono</string>
+    <string name="Reportarunproblema">Reportar un problema</string>
+    <string name="Problema">Escribe tu problema, con gusto te ayudaremos</string>
+    <string name="btnEnviarProblema">Enviar</string>
+    <string name="Vibrar">Vibrar</string>
+    <string name="Tono">Sonido</string>
+    <string name="AcercadePoliticas">Acerca de</string>
+    <string name="Informacion">Información</string>
+    <string name="Agregar">Agregar</string>
+    <string name="Experiencia">Experiencia</string>
+
+    <string name="Especialidad">Especialidad</string>
+
 </resources>

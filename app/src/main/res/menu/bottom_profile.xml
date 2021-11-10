@@ -4,6 +4,9 @@
     <item
         android:id="@+id/profile"
         android:icon="@drawable/people"
-        android:title="Perfil"
-        />
+        android:title="@string/Perfil" />
+    <item
+        android:id="@+id/seeting"
+        android:icon="@drawable/config"
+        android:title="@string/BtnConfiguracion" />
 </menu>

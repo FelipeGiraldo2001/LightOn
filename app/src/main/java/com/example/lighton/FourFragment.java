@@ -3,10 +3,13 @@ package com.example.lighton;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -14,6 +17,7 @@ import android.view.ViewGroup;
  * create an instance of this fragment.
  */
 public class FourFragment extends Fragment {
+    private Button mButtomDonar, mButtomConfi;
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -58,7 +62,24 @@ public class FourFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_four, container, false);
+        View root= inflater.inflate(R.layout.fragment_four, container, false);
+        mButtomConfi=root.findViewById(R.id.btn_Configurar);
+
+
+        mButtomConfi.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                FragmentTransaction transaction = fragmentManager.beginTransaction();
+                transaction.setReorderingAllowed(true);
+
+// Replace whatever is in the fragment_container view with this fragment
+                transaction.replace(R.id.configuracion, Configuracion.class, null);
+
+// Commit the transaction
+                transaction.commit();
+            }
+        });
+        return root;
     }
 }

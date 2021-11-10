@@ -1,9 +1,12 @@
 package com.example.lighton;
 
+import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatDelegate;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.os.Build;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.WindowManager;
@@ -13,7 +16,8 @@ import java.util.TimerTask;
 
 public class MainActivity extends Activity {
 
-    private final int duracion=2000;
+    private final int duracion = 2000;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -26,7 +30,10 @@ public class MainActivity extends Activity {
                 finish();
             }
         };
-        Timer tiempo= new Timer();
-        tiempo.schedule(tarea,3000);
+        Timer tiempo = new Timer();
+        tiempo.schedule(tarea, 3000);
     }
+
+
+
 }

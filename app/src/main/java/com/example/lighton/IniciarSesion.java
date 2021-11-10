@@ -43,14 +43,14 @@ import java.util.Arrays;
 public class IniciarSesion extends AppCompatActivity {
 
 
-    private EditText mEditTextEmail;
-    private EditText mEditTextPassword;
+     EditText mEditTextEmail;
+     EditText mEditTextPassword;
     private Button mButtonIngresar;
     private FloatingActionButton mButtonInicioGoogle;
     private FloatingActionButton mButtonInicioFacebook;
 
-    private String email ="";
-    private String password="";
+    public String email ="";
+    public String password="";
 
     private FirebaseAuth mAuth;
     GoogleSignInClient mGoogleSingInClient;
@@ -181,12 +181,12 @@ public class IniciarSesion extends AppCompatActivity {
         startActivity(siguientel);
     }
 
-    private void loginUser(){
+    public void loginUser(){
         mAuth.signInWithEmailAndPassword(email,password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
             @Override
             public void onComplete(@NonNull Task<AuthResult> task) {
                 if(task.isSuccessful()){
-                    startActivity(new Intent(IniciarSesion.this,Principal.class));
+                    startActivity(new Intent(IniciarSesion.this,PerfilesBanda.class));
                     finish();
                 } else {
                     Toast.makeText(IniciarSesion.this, "No se pudo iniciar sesión, compruebe los datos", Toast.LENGTH_SHORT).show();
@@ -198,4 +198,5 @@ public class IniciarSesion extends AppCompatActivity {
         Intent entrar = new Intent(this, Principal.class);
         startActivity(entrar);
     }
+
 }

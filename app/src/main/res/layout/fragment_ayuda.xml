@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ayuda"
+    android:orientation="vertical"
+    android:padding="10sp">
+
+
+
+    <TextView
+        android:id="@+id/txtenviarProblem"
+        android:layout_width="258dp"
+        android:layout_height="wrap_content"
+        android:text="@string/Reportarunproblema"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/txtmensajeAyuda"
+        android:layout_width="258dp"
+        android:layout_height="143dp"
+        android:hint="@string/Problema"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnenviarCorreo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnEnviarProblema"
+        android:textSize="18sp"
+        android:background="@color/teal_200"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+
+</LinearLayout>

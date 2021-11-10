@@ -10,7 +10,7 @@
         android:id="@+id/txt_usuario"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Usuario"
+        android:text="@string/PerfilUsuario"
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -23,6 +23,6 @@
         android:id="@+id/btn_CerrarSesion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Cerrar Sesión" />
+        android:text="@string/PerfilBandaCerrarSesión" />
 
 </RelativeLayout>

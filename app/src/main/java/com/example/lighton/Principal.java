@@ -16,13 +16,22 @@ public class Principal extends AppCompatActivity {
     SecondFragment secondFragment=new SecondFragment();
     ThirdFragment thirdFragment=new ThirdFragment();
     FourFragment fourFragment = new FourFragment();
+    Configuracion configfragment=new Configuracion();
+    Menu menuFragment=new Menu();
+    VerUsuarios verUser=new VerUsuarios();
+    DonarFragment donar=new DonarFragment();
+    Ver_Usuarios_Activity verusers= new Ver_Usuarios_Activity();
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_principal);
 
-        BottomNavigationView navigation= findViewById(R.id.bottom_perfil);
+        BottomNavigationView navigation= findViewById(R.id.bottom_navigation);
+        BottomNavigationView navigation2= findViewById(R.id.bottom_perfil);
+
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
+        navigation2.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
 
         loadFragment(firstFragment);
     }
@@ -36,16 +45,19 @@ public class Principal extends AppCompatActivity {
                 case R.id.secondFragment:
                     loadFragment(secondFragment);
                     return true;
-                case R.id.thirdFragment:
+                case R.id.verUsers:
                     loadFragment(thirdFragment);
                     return true;
                 case R.id.fourFragment:
                     loadFragment(fourFragment);
                     return true;
+                case R.id.seeting:
+                    loadFragment(configfragment);
             }
             return false;
         }
     };
+
 
     public void loadFragment(Fragment fragment){
         FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();

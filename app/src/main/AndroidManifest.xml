@@ -16,6 +16,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LightOn">
         <activity
+            android:name=".PaymentDetails"
+            android:exported="false" />
+        <activity
+            android:name=".Paypal"
+            android:exported="false" />
+        <activity
             android:name=".Credito"
             android:exported="false" />
         <activity
@@ -88,6 +94,8 @@
                 <data android:scheme="@string/fb_login_protocol_scheme" />
             </intent-filter>
         </activity>
+        <activity android:name=".MenuActivity" />
+        <activity android:name=".Ver_Usuarios_Activity" />
     </application>
 
 </manifest>
